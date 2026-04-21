@@ -1,30 +1,24 @@
 baseURL = "https://vk19n74-coder.github.io/valery-kozhevnikov/"
 languageCode = "en-gb"
 title = "Kozhevnikov Lab"
-theme = "github.com/HugoBlox/theme-research-group"
-
+theme = "github.com/wowchemy/starter-hugo-research-group"
 [module]
   [[module.imports]]
-    path = "github.com/HugoBlox/theme-research-group"
-
+    path = "github.com/wowchemy/starter-hugo-research-group"
 [params]
   # SITE BASICS
   description = "A research group at [University Name] studying [your research area]."
   author = "Your Name"
-
   # CONTACT
   email = "your.email@university.ac.uk"
   address = "Department of X, University Name, City, Postcode"
-
   # SOCIAL LINKS (leave blank to hide)
   twitter = ""
   github = ""
   google_scholar = ""
-
   # APPEARANCE
   appearance = "light"   # or "dark"
   font = "native"
-
 [menu]
   [[menu.main]]
     name = "Research"
