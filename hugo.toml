@@ -1,6 +1,6 @@
 baseURL = "https://vk19n74-coder.github.io/valery-kozhevnikov/"
 languageCode = "en-gb"
-title = "Your Lab Name"
+title = "Kozhevnikov Lab"
 theme = "github.com/HugoBlox/theme-research-group"
 
 [module]
