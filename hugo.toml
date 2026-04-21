@@ -43,3 +43,6 @@ theme = "github.com/wowchemy/starter-hugo-research-group"
     name = "Contact"
     url = "#contact"
     weight = 5
+[security]
+[security.funcs]
+  getenv = ['^HUGO_', '^CI$', '^WC_']
