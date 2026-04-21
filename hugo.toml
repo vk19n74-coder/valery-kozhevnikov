@@ -7,18 +7,21 @@ theme = "github.com/wowchemy/starter-hugo-research-group"
     path = "github.com/wowchemy/starter-hugo-research-group"
 [params]
   # SITE BASICS
-  description = "A research group at [University Name] studying [your research area]."
-  author = "Your Name"
+  description = "A research group at Northumbria University studying luminescent coordination chemistry."
+  author = "Valery Kozhevnikov"
   # CONTACT
-  email = "your.email@university.ac.uk"
-  address = "Department of X, University Name, City, Postcode"
+  email = "your.email@northumbria.ac.uk"
+  address = "Department of Applied Sciences, Northumbria University, Newcastle upon Tyne"
   # SOCIAL LINKS (leave blank to hide)
   twitter = ""
   github = ""
   google_scholar = ""
-  # APPEARANCE
-  appearance = "light"   # or "dark"
-  font = "native"
+  # APPEARANCE — required format for HugoBlox v5.9+
+  [params.appearance]
+    theme_day = "minimal"
+    theme_night = "minimal"
+    font = "native"
+    font_size = "L"
 [menu]
   [[menu.main]]
     name = "Research"
