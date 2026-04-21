@@ -6,6 +6,10 @@ theme = "github.com/wowchemy/starter-hugo-research-group"
 [module]
   [[module.imports]]
     path = "github.com/wowchemy/starter-hugo-research-group"
+    [[module.imports.mounts]]
+      source = "content"
+      target = "content"
+      excludeFiles = ["post/**", "publication/**", "authors/**", "home/**"]
 
 [params]
   description = "Luminescent coordination chemistry research group at Northumbria University, Newcastle upon Tyne."
@@ -54,11 +58,3 @@ theme = "github.com/wowchemy/starter-hugo-research-group"
 [security]
   [security.funcs]
     getenv = ['^HUGO_', '^CI$', '^WC_']
-
-[module]
-  [[module.imports]]
-    path = "github.com/wowchemy/starter-hugo-research-group"
-    [[module.imports.mounts]]
-      source = "content"
-      target = "content"
-      excludeFiles = ["post/**", "publication/**", "authors/**", "home/**"]
