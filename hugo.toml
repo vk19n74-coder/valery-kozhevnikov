@@ -11,7 +11,13 @@ theme = "github.com/wowchemy/starter-hugo-research-group"
   author = "Valery Kozhevnikov"
   # CONTACT
   email = "your.email@northumbria.ac.uk"
-  address = "Department of Applied Sciences, Northumbria University, Newcastle upon Tyne"
+  [params.address]
+  street = "Department of Applied Sciences"
+  city = "Newcastle upon Tyne"
+  region = ""
+  postcode = ""
+  country = "United Kingdom"
+  country_code = "GB"
   # SOCIAL LINKS (leave blank to hide)
   twitter = ""
   github = ""
