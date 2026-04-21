@@ -1,0 +1,48 @@
+baseURL = "https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/"
+languageCode = "en-gb"
+title = "Your Lab Name"
+theme = "github.com/HugoBlox/theme-research-group"
+
+[module]
+  [[module.imports]]
+    path = "github.com/HugoBlox/theme-research-group"
+
+[params]
+  # SITE BASICS
+  description = "A research group at [University Name] studying [your research area]."
+  author = "Your Name"
+
+  # CONTACT
+  email = "your.email@university.ac.uk"
+  address = "Department of X, University Name, City, Postcode"
+
+  # SOCIAL LINKS (leave blank to hide)
+  twitter = ""
+  github = ""
+  google_scholar = ""
+
+  # APPEARANCE
+  appearance = "light"   # or "dark"
+  font = "native"
+
+[menu]
+  [[menu.main]]
+    name = "Research"
+    url = "#research"
+    weight = 1
+  [[menu.main]]
+    name = "Publications"
+    url = "#publications"
+    weight = 2
+  [[menu.main]]
+    name = "Team"
+    url = "#team"
+    weight = 3
+  [[menu.main]]
+    name = "News"
+    url = "#news"
+    weight = 4
+  [[menu.main]]
+    name = "Contact"
+    url = "#contact"
+    weight = 5
